@@ -14,5 +14,34 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+
+Route::get('/products', function () {
+    return view('products');
+});
+
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+
+Route::get('/basket', function () {
+    return view('basket');
+});
+
+Route::get('/product/{id}', function () { /*to use controller */
+    return view('product');
+});
+
+
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
