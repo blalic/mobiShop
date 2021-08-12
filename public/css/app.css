@@ -49,6 +49,65 @@ h1, h2{
 }
 
 
+/* PRODUCTS */
+.product_content{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.product{
+    flex: 0 0 45%;
+    /* display: inline-block;
+    width: 45%; */
+    height: 400px;
+    margin: 2%;
+    padding: 5%;
+    border: 1px solid;
+    text-align: center;
+    color: navy;
+}
+.product h3, .product h4{
+    display: inline-block;
+}
+.pag{
+    display: block;
+    text-align: center;
+}
+
+
+/* SHOW */
+.show{
+    text-align: center;
+}
+
+.comments{
+    text-align: center;
+    padding: 5% 0 5% 0;
+}
+
+/* CONTACT */
+.contact{
+    text-align: center;
+    margin-top: 10%;
+    color: orangered;
+    height: 250px;
+}
+
+/* LOGIN */
+.login{
+    text-align: center;
+    height: 300px;
+}
+.login input{
+    /* display: block; */
+    text-align: center;
+    margin-top: 2%;
+}
+.login button{
+    margin-top: 2%;
+}
+
 /* FOOTER */
 .footer{
     text-align: center;

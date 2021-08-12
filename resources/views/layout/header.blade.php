@@ -8,6 +8,7 @@
                 <li><a href="/products">PRODUCTS</a></li>
                 <li><a href="/basket">BASKET</a></li>
                 <li><a href="/contact">CONTACT</a></li>
+                <li><a href="/login">LOGIN</a></li>
             </div>
         </div>
 </div>

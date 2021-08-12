@@ -58,7 +58,10 @@ p{
     margin: 0px;
 }
 
-
+/* PRODUCTS */
+.product_content{
+    text-align: center;
+}
 
 
 /* RESPONSIVE */
